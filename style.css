@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #002D54;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 95px;
+}
+
+.logo {
+    max-width: 100px;
+    margin-left: 370px;
+}
+
+nav {
+    flex-grow: 1;
+    text-align: center;
+   
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-size: 13px;
+}
+
+.btnContato{
+    margin-right: 370px;
+}
+
+
+ /* EM celular */
+@media (max-width: 900px) {
+    nav {
+        display: none;
+    }
+
+    header{
+        height: 60px;
+    }
+
+    .logo {
+        max-width: 100px;
+        margin-left: 10px;
+    }
+
+    .btnContato{
+        margin-right: 10px;
+    }
+
+}
+
+/* MAIN */
+
+main{
+    text-align: center;
+    background-color:rgb(253, 0, 0)
+}
+
+.h1PrincipalMain{
+    margin-top: 50px;
+}
+p{
+    margin-top: 10px;
+ }
+
+.CTR{
+    margin-top: 10px;
+    color: white;
+    background-color: #002D54;
+ }
+
+ .sitesProfissionais{
+    color: #008CFF;
+    padding-top: 80px;
+ }

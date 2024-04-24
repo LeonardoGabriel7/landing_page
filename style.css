@@ -189,4 +189,48 @@ p{
 
 
 
-  
+  /* ESTILO DAS ESPECIALIDADES */
+
+
+
+h2.titulo{
+text-align: center;
+}
+
+section.especiliadades {
+    padding: 40px 18%;
+}
+
+section.especiliadades .flex {
+    gap: 60px;
+}
+
+.especiliadades .especialidades-box {
+    color: #000000;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+    box-shadow: 0 0 20px #00000078;
+}
+
+.especiliadades .especialidades-box:hover {
+    transform: scale(1.05);
+    
+}
+
+.especiliadades .especialidades-box i {
+    font-size: 70px;
+    color: #002fff;
+}
+
+.especiliadades .especialidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+
+
+
+
+

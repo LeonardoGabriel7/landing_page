@@ -62,3 +62,19 @@
 
 
 
+/*  Expecialidades*/
+@media (max-width: 768px) {
+    .especiliadades .flex {
+      flex-direction: column;
+      align-items: center;
+      
+      
+    }
+  
+    .especiliadades .especialidades-box {
+      width: 80%; /* ou outro valor conforme necessário */
+      height: 200px;
+      margin-top: 20px;
+      
+    }
+  }

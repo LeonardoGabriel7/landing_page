@@ -1,27 +1,26 @@
 
 /*  header EM celular */
 
-@media (max-width: 900px) {
-    nav {
-        display: none;
+@media (max-width: 768px) {
+    .waves {
+      height: 40px;
+      min-height: 40px;
+    }
+  
+    .content {
+      height: 30vh;
+    }
+  
+    h1 {
+      font-size: 24px;
+      font-weight: 900;
+      
     }
 
-    header{
-        height: 60px;
+    .ctrHeader{
+       margin-left: 110px;
     }
-
-    .logo {
-        max-width: 100px;
-        margin-left: 10px;
-    }
-
-    .btnContato{
-        margin-right: 10px;
-    }
-
-
-
-}
+  }
 
 /*  main EM celular */
 @media (max-width: 900px) {
@@ -60,3 +59,6 @@
         margin-top: -100px;
       }
 }
+
+
+

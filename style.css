@@ -22,6 +22,14 @@ body {
     display: inline-block;
     vertical-align: middle;
   }
+
+
+ 
+
+  .ctrHeader{
+     margin-left: 1100px;
+  }
+
   
   .inner-header {
     height: 10vh;
@@ -91,21 +99,8 @@ body {
     }
   }
   
-  /* /* Shrinking for mobile */
-  @media (max-width: 768px) {
-    .waves {
-      height: 40px;
-      min-height: 40px;
-    }
+
   
-    .content {
-      height: 30vh;
-    }
-  
-    h1 {
-      font-size: 24px;
-    }
-  }
 
 main{
     text-align: center;
@@ -153,7 +148,7 @@ p{
 
  .sitesProfissionais{
     color: #008CFF;
-    padding-top: 80px;
+    padding-top: 50px;
     font-size: 12px;
     font-weight: 900;
     

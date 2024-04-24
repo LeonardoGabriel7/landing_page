@@ -35,13 +35,28 @@
     }
 
     p{
-        margin-left: 18px;
-        margin-right: 18px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 15px;
+        line-height: 1.5;
+        color: rgba(49, 49, 49, 0.932);
+        font-weight: 500;
+    }
+
+    p.sitesProfissionais{
+
+        margin-top: 30px;
     }
 
 
     button.CTR{
+        margin-top: px;
         width: 240px ;
-        height: 60px;
+        height: 55px;
     }
+
+    .estrelas label i.fa{
+        font-size: 0.7em;
+        margin-top: -100px;
+      }
 }

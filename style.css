@@ -70,8 +70,16 @@ p{
     height: 60px;
     font-weight: 700;
     font-size: 15px;
-    
+
  }
+
+ .CTR:hover{
+    background-color: #ffffff;
+    border: 2px solid #00B48F ;
+    color:#00B48F;
+    cursor: pointer;
+    scale: 1;
+}
 
  .sitesProfissionais{
     color: #008CFF;
@@ -84,5 +92,22 @@ p{
 
 
 
- /* MAIN EM CELULAR */
+ /* 5 ESTRELAS */
  
+ .estrelas input[type=radio] {
+    display: none;
+    
+  }
+  .estrelas label i.fa{
+    font-size: 1em;
+   
+  }
+  .estrelas label i.fa:before {
+    content:'\f005';
+    color: #FF7201;
+    
+  }
+  .estrelas input[type=radio]:checked ~ label i.fa:before {
+    color: #FF7201;
+   
+  }

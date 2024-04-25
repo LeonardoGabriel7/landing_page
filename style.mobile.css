@@ -131,3 +131,15 @@
       }
     
   }
+
+
+
+/*  DEPOIMENTOS*/
+  @media (max-width: 1100px){
+    div.depoimentos{
+      flex-direction: column;
+      
+    }
+
+    
+  }

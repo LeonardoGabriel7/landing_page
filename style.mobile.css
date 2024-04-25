@@ -75,7 +75,8 @@
       color: #000000;
       padding: 40px;
       border-radius: 20px;
-      margin-top: 45px;
+      margin-top: 20px;
+      margin-bottom: -50px;
       transition: .2s;
       box-shadow: 0 0 20px #00000078;
       width: 190px;

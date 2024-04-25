@@ -62,7 +62,7 @@
 
 
 
-/*  Expecialidades*/
+/*  COMO*/
 @media (max-width: 768px) {
     .especiliadades .flex {
       flex-direction: column;
@@ -73,8 +73,43 @@
   
     .especiliadades .especialidades-box {
       width: 80%; /* ou outro valor conforme necessário */
-      height: 200px;
+      height: 130px;
       margin-top: 20px;
+      margin-bottom: -60px;
       
     }
+
+
+    h2.titulo{
+      text-align: center;
+      font-weight: 800;
+      font-size: 21px;
+      }
+      
+      
+
+      section.especiliadades {
+          padding: 40px 18%;
+      }
+      
+      .especiliadades .especialidades-box:hover {
+          transform: scale(1.05);
+          
+      }
+      
+      .especiliadades .especialidades-box i {
+          font-size: 30px;
+          color: #002fff;
+      }
+      
+      .especiliadades .especialidades-box h3 {
+          font-size: 17px;
+          margin: 15px 0;
+      }
+      
+      .especiliadades .especialidades-box p{
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+    
   }

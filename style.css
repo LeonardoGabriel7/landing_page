@@ -28,6 +28,14 @@ body {
 
   .ctrHeader{
      margin-left: 1100px;
+     color: white;
+    background-color: #00B48F;
+    border-radius: 30px;
+    border: none;
+    width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 18px;
   }
 
   

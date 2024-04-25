@@ -45,9 +45,14 @@
         margin-left: 20px;
         margin-right: 20px;
         font-size: 15px;
-        line-height: 1.5;
+        line-height: 1.6;
         color: rgba(49, 49, 49, 0.932);
         font-weight: 500;
+    
+    }
+
+    p.p3{
+      margin-top: -10px;
     }
 
     p.sitesProfissionais{

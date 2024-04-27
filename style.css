@@ -303,13 +303,13 @@ h2.nome{
   color: white;
   background-color:#002fff ;
   width: 100vw;
-  height: 850px;
+  height: 950px;
 
 }
 
 div.caixaCtr{
   width: 450px;
-  height: 750px;
+  height: 850px;
   background-color: #1C1C1C;
   border-radius: 20px;
 }
@@ -352,8 +352,8 @@ span.descontoS{
 }
 
 .CTR2{
-    margin-top: 40px;
-    margin-bottom: 70px;
+    margin-top: 30px;
+    margin-botto: 70px;
     color: white;
     background-color: #00B48F;
     padding: 18px;
@@ -367,9 +367,20 @@ span.descontoS{
 
 
 .ctr p i{
-font-size: 30px;
+font-size: 20px;
+
 }
 
 p.beneficios{
-  font-size: 40px;
+  font-size: 20px;
+  color: rgb(221, 220, 220);
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+
+hr.listra{
+  color: #002fff;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 280px;
 }

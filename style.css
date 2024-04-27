@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    
     font-family: Arial, sans-serif;
 }
 
@@ -294,14 +294,53 @@ h2.nome{
 
 
 
+ /* ESTILO ctr */
+.ctr{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  background-color:#002fff ;
+  width: 100vw;
+  height: 850px;
 
+}
 
+div.caixaCtr{
+  width: 450px;
+  height: 650px;
+  background-color: #1C1C1C;
+  border-radius: 20px;
+}
 
+.ctr i{
+  font-size: 70px;
+  color:#002fff;
+  margin-top: 60px;
+}
 
+h1.landing{
+  
+}
 
+p.desconto{
 
+}
 
+h2.pith{
 
+}
 
+h2.pith span{
+  
+}
 
+p.vista{
+
+}
+
+span.descontoS{
+  color: red;
+}
 

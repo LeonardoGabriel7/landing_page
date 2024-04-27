@@ -353,7 +353,7 @@ span.descontoS{
 
 .CTR2{
     margin-top: 30px;
-    margin-botto: 70px;
+    margin-bottom: 70px;
     color: white;
     background-color: #00B48F;
     padding: 18px;
@@ -383,4 +383,110 @@ hr.listra{
   margin-top: 30px;
   margin-bottom: 10px;
   width: 280px;
+}
+
+
+
+
+
+
+
+ /* ESTILO wpp */
+
+section.WhastApp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 100px 100px 100px 100px;
+  border-top: 2px solid #ffffff1d;
+}
+section.WhastApp .quadro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+section.WhastApp .quadro .imagem {
+  width: 100%;
+  max-width: 160px;
+}
+section.WhastApp .quadro .imagem img {
+  width: 100%;
+}
+section.WhastApp .quadro .texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 650px;
+  padding: 0 0 0 50px;
+}
+section.WhastApp .quadro .texto h2 {
+  font-family: var(--bold);
+  font-size: var(--f4);
+  color: var(--cor-branco);
+  margin: 0 0 10px 0;
+}
+section.WhastApp .quadro .texto h2 span {
+  background: linear-gradient(to right, var(--cor-verde-1), var(--cor-verde-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+section.WhastApp .quadro .texto p {
+  font-family: var(--light);
+  font-size: var(--f2);
+  color: var(--cor-cinza);
+  line-height: 1.5;
+}
+section.WhastApp .quadro .texto p span {
+  font-family: var(--bold);
+}
+section.WhastApp .quadro .texto a {
+  display: flex;
+  align-items: center;
+  font-family: var(--bold);
+  font-size: var(--f3);
+  background: linear-gradient(to right, var(--cor-verde-1), var(--cor-verde-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin: 10px 0 0 0;
+  transition: all 0.3s;
+}
+section.WhastApp .quadro .texto a img {
+  width: 15px;
+  margin: 0 10px 0 0;
+}
+section.WhastApp .quadro .texto a:hover {
+  filter: brightness(120%);
+}
+/* Responsivo */
+@media screen and (max-width: 1000px) {
+  section.WhastApp {
+    padding: 50px 30px 50px 30px;
+  }
+  section.WhastApp .quadro {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+  section.WhastApp .quadro .imagem {
+    max-width: 120px;
+  }
+  section.WhastApp .quadro .texto {
+    align-items: center;
+    text-align: center;
+    padding: 20px 0 0 0;
+  }
+  section.WhastApp .quadro .texto p {
+    max-width: 280px;
+  }
+}
+
+button.btnwpp{
+  background-color: white;
+  border: none;
+  text-align: center;
 }

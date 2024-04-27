@@ -252,6 +252,7 @@ section.especiliadades .flex {
 
 
 div.depoimentos{
+  
   display: flex;
   align-items: center;
   justify-content: center; 
@@ -285,3 +286,22 @@ h2.nome{
 .caixaDepoimento i {
   font-size: 70px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

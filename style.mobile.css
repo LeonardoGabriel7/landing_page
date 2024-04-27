@@ -138,7 +138,10 @@
   @media (max-width: 1100px){
     div.depoimentos{
       flex-direction: column;
-      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
     }
 
     

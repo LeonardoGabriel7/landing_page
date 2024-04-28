@@ -129,7 +129,7 @@ p{
  }
 
  p.p3{
-    margin-top: 50px;
+    margin-top: -10px;
     margin-left: 100px;
     margin-right:100px;
  }
@@ -224,7 +224,7 @@ section.especiliadades .flex {
     margin-top: 45px;
     transition: .2s;
     box-shadow: 0 0 20px #00000078;
-    height: 200px;
+    height: 220px;
     width: 300px;
 }
 

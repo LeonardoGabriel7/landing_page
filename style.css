@@ -211,6 +211,7 @@ text-align: center;
 
 section.especiliadades {
     padding: 40px 18%;
+    background: linear-gradient(to top, #1C87BE 30%, white 30%); /* Cria um gradiente linear que vai de azul a branco */
 }
 
 section.especiliadades .flex {
@@ -219,6 +220,7 @@ section.especiliadades .flex {
 
 .especiliadades .especialidades-box {
     color: #000000;
+    background-color: #fff;
     padding: 40px;
     border-radius: 20px;
     margin-top: 45px;
@@ -301,7 +303,7 @@ h2.nome{
   justify-content: center;
   display: flex;
   color: white;
-  background-color: #1C1C1C;
+  background-color: #1C87BE;
   width: 100vw;
   height: 950px;
 
@@ -310,7 +312,7 @@ h2.nome{
 div.caixaCtr{
   width: 450px;
   height: 850px;
-  background-color: #1C1C1C;
+  background-color: #2b2b2b;
   border-radius: 20px;
   border: 2px solid #fff;
 }

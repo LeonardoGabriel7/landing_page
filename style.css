@@ -1,7 +1,13 @@
-body {
-    
-    font-family: Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  ---fonte1:  "Montserrat", sans-serif;
+  ---fonte2:  "Figtree", sans-serif;
 }
+
+
 
 
 .header {
@@ -18,17 +24,16 @@ body {
   .logo {
     width: 50px;
     fill: white;
-    padding-right: 15px;
+    margin-right: 15px !important;
     display: inline-block;
     vertical-align: middle;
-  }
+    font-family: var(---fonte1);
+    font-weight: 900;
+}
 
-
- 
-
-  .ctrHeader{
-     margin-left: 1100px;
-     color: white;
+.ctrHeader {
+    margin-left: 1100px !important;
+    color: white;
     background-color: #00B48F;
     border-radius: 30px;
     border: none;
@@ -36,7 +41,7 @@ body {
     height: 45px;
     font-weight: 700;
     font-size: 18px;
-  }
+}
 
   .ctrHeader:hover{
     background-color: #ffffff;
@@ -124,26 +129,32 @@ body {
 main{
   padding: 0 5vw;
     text-align: center;
-    background-color:rgb(255, 255, 255)
+    background-color:rgb(255, 255, 255);
+   
 }
 
 .h1PrincipalMain{
     margin-top: 40px;
     font-style: normal;
-    font-size: 50px;
+    font-size: 47px;
     font-weight: 800;
+    font-family: var(---fonte1);
+    font-style: italic;
+    
     
 }
 p{
     margin-top: 10px;
     line-height: 1.6;
     font-size: 20px;
+    font-family: var(---fonte2);
  }
 
  p.p3{
     margin-top: -10px;
     margin-left: 100px;
     margin-right:100px;
+    font-family: var(---fonte2);
  }
 
 .CTR{
@@ -171,6 +182,7 @@ p{
 }
 
  .sitesProfissionais{
+ 
     color: #008CFF;
     padding-top: 50px;
     font-size: 12px;
@@ -220,8 +232,9 @@ p{
 h2.titulo{
 text-align: center;
 font-size: 35px;
-font-weight: 900;
+font-weight: 800;
 margin-bottom: 15px;
+font-family: var(---fonte1);
 }
 
 section.especiliadades {
@@ -243,6 +256,7 @@ section.especiliadades .flex {
     box-shadow: 0 0 20px #00000078;
     height: 220px;
     width: 300px;
+    font-family: var(---fonte1);
 }
 
 .especiliadades .especialidades-box:hover {
@@ -259,6 +273,8 @@ section.especiliadades .flex {
 .especiliadades .especialidades-box h3 {
     font-size: 28px;
     margin: 15px 0;
+    font-family: var(---fonte1);
+    font-weight: 700;
 }
 
 
@@ -343,6 +359,7 @@ div.caixaCtr{
 h1.landing{
   font-size: 35px;
   font-weight: 900;
+  font-family: var(---fonte1);
 }
 
 p.desconto{
@@ -353,6 +370,8 @@ p.desconto{
 h2.pith{
   margin-top: -20px;
 font-size: 30px;
+font-family: var(---fonte2);
+font-weight: 800;
 }
 
 h2.pith span{
@@ -432,6 +451,7 @@ section.WhastApp {
   border-top: 2px solid #ffffff1d;
   background-color: #000;
   color: #fff;
+  font-family: var(---fonte2);
 }
 section.WhastApp .quadro {
   display: flex;

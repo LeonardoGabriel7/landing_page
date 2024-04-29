@@ -38,6 +38,16 @@ body {
     font-size: 18px;
   }
 
+  .ctrHeader:hover{
+    background-color: #ffffff;
+    border: 2px solid #00B48F ;
+    color:#00B48F;
+    cursor: pointer;
+    scale: 1;
+    transition: 1s;
+  }
+
+
   
   .inner-header {
     height: 10vh;
@@ -157,6 +167,7 @@ p{
     color:#00B48F;
     cursor: pointer;
     scale: 1;
+    transition: 1s;
 }
 
  .sitesProfissionais{

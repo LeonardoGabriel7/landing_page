@@ -42,7 +42,7 @@ body {
   .inner-header {
     height: 10vh;
     width: 90vw; /* Define a largura para 90% da largura da tela */
-    max-width: 1200px; /* Define uma largura máxima para o elemento */
+   /* Define uma largura máxima para o elemento */
     margin: 0 auto;
     padding: 0;
   }

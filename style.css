@@ -41,8 +41,9 @@ body {
   
   .inner-header {
     height: 10vh;
-    width: 100%;
-    margin: 0;
+    width: 90vw; /* Define a largura para 90% da largura da tela */
+    max-width: 1200px; /* Define uma largura máxima para o elemento */
+    margin: 0 auto;
     padding: 0;
   }
   
@@ -111,6 +112,7 @@ body {
   
 
 main{
+  padding: 0 5vw;
     text-align: center;
     background-color:rgb(255, 255, 255)
 }
@@ -212,7 +214,7 @@ margin-bottom: 15px;
 }
 
 section.especiliadades {
-    padding: 40px 18%;
+  padding: 40px 5vw;
     background: linear-gradient(to top, #1C87BE 30%, white 30%); /* Cria um gradiente linear que vai de azul a branco */
 }
 
@@ -259,8 +261,8 @@ div.depoimentos{
   
   display: flex;
   align-items: center;
-  justify-content: center; 
-  gap: 160px;
+  gap: 5vw; /* Define um espaçamento entre os elementos */
+  justify-content: space-around;
 }
 
  .caixaDepoimento{
@@ -399,6 +401,7 @@ hr.listra{
  /* ESTILO wpp */
 
 section.WhastApp {
+  padding: 50px 5vw;
   display: flex;
   align-items: center;
   justify-content: center;

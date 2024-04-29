@@ -401,12 +401,11 @@ hr.listra{
  /* ESTILO wpp */
 
 section.WhastApp {
-  padding: 50px 5vw;
+  
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 88vw;
-  padding: 100px 100px 100px 100px;
+  width: 100vw;
   border-top: 2px solid #ffffff1d;
   background-color: #000;
   color: #fff;

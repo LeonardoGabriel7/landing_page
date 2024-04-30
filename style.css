@@ -267,7 +267,7 @@ section.especiliadades .flex {
 
 .especiliadades .especialidades-box i {
     font-size: 50px;
-    color: #002fff;
+    color: #1C87BE;
     
 }
 
@@ -351,11 +351,7 @@ div.caixaCtr{
   border: 2px solid #fff;
 }
 
-.ctr i{
-  font-size: 70px;
-  color:#002fff;
-  margin-top: 60px;
-}
+
 
 h1.landing{
   font-size: 35px;

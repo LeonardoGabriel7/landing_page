@@ -22,7 +22,7 @@
   }
   
   .logo {
-    width: 50px;
+  
     fill: white;
     margin-right: 15px !important;
     display: inline-block;
@@ -238,6 +238,7 @@ font-family: var(---fonte1);
 }
 
 section.especiliadades {
+  
   padding: 40px 5vw;
     background: linear-gradient(to top, #1C87BE 30%, white 30%); /* Cria um gradiente linear que vai de azul a branco */
 }
@@ -335,7 +336,7 @@ h2.nome{
   display: flex;
   color: white;
   background-color: #1C87BE;
-  width: 100vw;
+  width: 98.2vw;
   height: 950px;
 
 }
@@ -448,7 +449,7 @@ section.WhastApp {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 98.2vw;
   border-top: 2px solid #ffffff1d;
   background-color: #000;
   color: #fff;

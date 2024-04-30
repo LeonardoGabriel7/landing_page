@@ -3,46 +3,74 @@
 
 
 @media (max-width: 900px) {
-    .waves {
+   
+  
+  .waves {
       height: 40px;
       min-height: 40px;
     }
   
+    
+    .header {
+      position: relative;
+      text-align: center;
+      background: linear-gradient(
+        60deg,
+        rgba(84, 58, 183, 1) 0%,
+        rgba(0, 172, 193, 1) 100%
+      );
+      color: white;
+    }
+    
     .logo {
-      float: left; /* Define a logo para flutuar à esquerda */
-      margin-left: -300px; /* Adiciona uma margem à direita para separar da borda */
-    }
-  
-    .ctrHeader {
-      /* Define o botão de contato para flutuar à direita */
-      margin-right: -10000px; /* Adiciona uma margem à esquerda para separar da borda */
-    }
-
-    .inner-header {
-      text-align: left; /* Alinha o texto para a esquerda */
-      padding-left: 15px; /* Adiciona um preenchimento à esquerda para manter a consistência */
-      padding-right: 15px; /* Adiciona um preenchimento à direita para manter a consistência */
-    }
-  
-    h1 {
-      font-size: 24px;
-      font-weight: 900;
       
-    }
-
-    .ctrHeader{
-       margin-left: 110px;
-       color: white;
-    background-color: #00B48F;
-    border-radius: 30px;
-    border: none;
-    width: 110px;
-    height: 35px;
-    font-weight: 700;
-    font-size: 15px;
+      fill: white;
+      
+      display: inline-block;
+      vertical-align: middle;
+      font-family: var(---fonte1);
+      font-weight: 900;
+  }
+  
+  .ctrHeader {
+      margin-left: 180px !important;
+      color: white;
+      background-color: #00B48F;
+      border-radius: 30px;
+      border: none;
+      width: 120px;
+      height: 38px;
+      font-weight: 700;
+      font-size: 15px;
+  }
+  
+    .ctrHeader:hover{
+      background-color: #ffffff;
+      border: 2px solid #00B48F ;
+      color:#00B48F;
+      cursor: pointer;
+      scale: 1;
+      transition: 1s;
     }
   
-  }
+  
+    
+    .inner-header {
+      height: 10vh;
+      width: 90vw; /* Define a largura para 90% da largura da tela */
+     /* Define uma largura máxima para o elemento */
+      margin: 0 auto;
+      padding: 0;
+    }
+    
+    .flex {
+      /*Flexbox for containers*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    }
 
 /*  main EM celular */
 @media (max-width: 900px) {

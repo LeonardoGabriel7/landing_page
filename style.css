@@ -365,6 +365,7 @@ h1.landing{
 p.desconto{
   font-size: 18px;
   color: rgb(221, 220, 220);
+  margin-bottom: 15px;
 }
 
 h2.pith{
@@ -380,7 +381,7 @@ h2.pith span{
 
 p.vista{
   font-size: 18px;
-  margin-top: -20px;
+  margin-top: -30px;
   color: rgb(221, 220, 220);
 }
 

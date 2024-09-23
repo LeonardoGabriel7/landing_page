@@ -8,22 +8,42 @@
 }
 
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Garantir que o header ocupe 100% da largura */
 .header {
-    position: relative;
-    text-align: center;
-    background: linear-gradient(
-      60deg,
-      rgba(84, 58, 183, 1) 0%,
-      rgba(0, 172, 193, 1) 100%
-    );
-    color: white;
-  }
+  position: relative;
+  text-align: center;
+  background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
+  color: white;
+  width: 100vw;  /* Garante que ocupa 100% da largura da tela */
+  overflow-x: hidden;  /* Evita qualquer rolagem lateral */
+}
+
+/* Adicionar estilos globais */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Remove possíveis barras de rolagem laterais */
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+}
+
+
+
   
-  .logo {
-  
+  h1.logo {
+    margin-top: 20px !important;
     fill: white;
     margin-right: 15px !important;
-    display: inline-block;
     vertical-align: middle;
     font-family: var(---fonte1);
     font-weight: 900;
@@ -124,15 +144,15 @@
 
   
 
-main{
-  padding: 0 5vw;
+  main {
+    padding: 0 5vw;
     text-align: center;
-    background-color:rgb(255, 255, 255);
-   
-}
+    background-color: rgb(255, 255, 255);
+  }
 
 .h1PrincipalMain{
     margin-top: 40px;
+    margin-bottom: 30px;
     font-style: normal;
     font-size: 47px;
     font-weight: 800;
@@ -142,21 +162,21 @@ main{
     
 }
 p{
-    margin-top: 10px;
     line-height: 1.6;
     font-size: 20px;
     font-family: var(---fonte2);
+    
  }
 
  p.p3{
-    margin-top: -10px;
+    margin-top: 0px;
     margin-left: 100px;
     margin-right:100px;
     font-family: var(---fonte2);
  }
 
 .CTR{
-    margin-top: 10px;
+    margin-top: 35px;
     margin-bottom: 70px;
     color: white;
     background-color: #00B48F;
@@ -180,7 +200,8 @@ p{
 }
 
  .sitesProfissionais{
- 
+    margin-top: 13px;
+    margin-bottom: 13px;
     color: #008CFF;
     padding-top: 50px;
     font-size: 12px;
@@ -253,8 +274,8 @@ section.especiliadades .flex {
     margin-top: 45px;
     transition: .2s;
     box-shadow: 0 0 20px #00000078;
-    height: 220px;
-    width: 300px;
+    height: 310px;
+    width: 350px;
     font-family: var(---fonte1);
 }
 
@@ -355,16 +376,19 @@ h1.landing{
   font-size: 35px;
   font-weight: 900;
   font-family: var(---fonte1);
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 p.desconto{
   font-size: 18px;
   color: rgb(221, 220, 220);
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 
 h2.pith{
   margin-top: -20px;
+  margin-bottom: 15px;
 font-size: 30px;
 font-family: var(---fonte2);
 font-weight: 800;
@@ -422,16 +446,14 @@ p.beneficios{
   margin-bottom: -20px;
 }
 
-hr.listra{
+hr.listra {
   color: #002fff;
-  margin-top: 30px;
+  margin-top: 33px; /* Aumenta a margem superior da linha */
   margin-bottom: 10px;
   width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-
-
-
 
 
 
@@ -443,7 +465,7 @@ section.WhastApp {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 98.2vw;
+  width: 100vw;
   border-top: 2px solid #ffffff1d;
   background-color: #000;
   color: #fff;

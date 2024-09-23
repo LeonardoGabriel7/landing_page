@@ -163,12 +163,10 @@
 
 
 /*  DEPOIMENTOS*/
-
 @media (max-width: 1100px) {
   .especiliadades .interface {
       width: 90%;
       margin: 0 auto;
-      
   }
 
   .especiliadades .interface .titulo {
@@ -176,10 +174,20 @@
       margin-bottom: 10px; 
   }
 
+  .flex {
+      display: flex; /* Certifique-se de que a classe 'flex' é um contêiner flex */
+      flex-wrap: wrap; /* Para que as caixas possam se ajustar em telas menores */
+  }
+
   .especialidades-box {
       flex: 1;
       text-align: center;
       margin-bottom: -35px !important;
+      min-height: 250px; /* Use min-height para garantir que a altura mínima seja aplicada */
+      background-color: white; /* Fundo branco */
+      border-radius: 8px; /* Opcional: bordas arredondadas */
+      padding: 20px; /* Opcional: espaço interno */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: sombra */
   }
 
   .especialidades-box h3 {
@@ -187,11 +195,9 @@
       font-size: 22px !important; 
   }
 
-  
-
   .especialidades-box p {
-    font-size: 18px !important; 
-}
+      font-size: 18px !important; 
+  }
 }
 
 
